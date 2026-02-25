@@ -1,0 +1,23 @@
+{
+  "backend/main.mo": "Motoko actor implementing a turf booking system with CRUD operations for time slots — supports adding, booking, cancelling, deleting, and querying slots sorted by date/time.",
+  "feature_evidence.json": "Feature evidence report mapping three completed features (correct business address, phone numbers, and email updates) to their affected frontend files and test IDs.",
+  "frontend-file-summaries.txt": "JSON document containing one-line summaries of all frontend source files, serving as a reference index for the project's React/Tailwind frontend.",
+  "frontend/index.css": "Base Tailwind CSS entry file defining OKLCH-based CSS custom properties for light and dark theme color tokens used throughout the UI.",
+  "frontend/index.html": "HTML entry point for the React app titled 'Green Pitch Turf', mounting the app into a root div and loading the main TSX module.",
+  "frontend/src/App.tsx": "Root React component that sets up TanStack Router with routes for Home (/), Booking (/booking), and Admin (/admin), all wrapped in the Layout component with a Sonner Toaster.",
+  "frontend/src/components/AdminSlotTable.tsx": "Admin table component that displays all booking slots with date, time, status, booker info, and action buttons for cancelling or deleting slots with loading state support.",
+  "frontend/src/components/BookingModal.tsx": "Dialog modal component for booking a slot that collects and validates a user's name and phone number before calling the onBook callback.",
+  "frontend/src/components/Layout.tsx": "Defines the main app layout with a sticky header (logo, desktop/mobile nav), main content area, and footer for the Green Pitch Turf booking app.",
+  "frontend/src/components/SlotCard.tsx": "Renders a single booking slot card showing time range, availability status, booker details, and Book/Cancel action buttons.",
+  "frontend/src/hooks/useActor.ts": "Custom hook that creates and caches an ICP backend actor (authenticated or anonymous) using React Query, invalidating dependent queries when the identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "Provides an Internet Identity authentication context and provider, exposing login/logout functions, identity state, and login status via a React context hook.",
+  "frontend/src/hooks/useQueries.ts": "Exports React Query hooks for all backend operations: fetching all/available slots, and mutations for adding, booking, cancelling, and deleting slots.",
+  "frontend/src/index.css": "Global stylesheet importing fonts and defining Tailwind CSS base styles, OKLCH-based CSS custom properties for the brand color system (light/dark modes), and utility classes for turf/gold colors and gradients.",
+  "frontend/src/lib/timeUtils.ts": "Utility functions for converting between JavaScript Dates and nanosecond bigints (used by the ICP backend), plus formatting helpers for dates, times, and date keys.",
+  "frontend/src/main.tsx": "App entry point that mounts the React app wrapped with QueryClientProvider and InternetIdentityProvider.",
+  "frontend/src/pages/Admin.tsx": "Admin panel page that allows adding new booking slots (with date/time form validation) and lists all existing slots with options to delete slots or cancel bookings, using React Query mutations and toast notifications.",
+  "frontend/src/pages/Booking.tsx": "Public booking page that fetches and displays all slots grouped by date, allowing users to book an available slot via a modal (name/phone input) or cancel an existing booking.",
+  "frontend/src/pages/Home.tsx": "Landing/home page for Green Pitch Turf featuring a hero banner, features grid, stats section, and contact/location info with navigation links to the booking page.",
+  "frontend/tailwind.config.js": "Tailwind CSS configuration defining custom theme tokens including brand colors (gold, turf variants), fonts (Oswald, Inter), border radii, box shadows, and keyframe animations for the sports-themed UI.",
+  "project_state.json": "Project state metadata file tracking schema version, implemented features, architectural notes, and business details (address, phone numbers, email) for the Green Pitch Turf booking website."
+}

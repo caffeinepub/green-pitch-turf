@@ -1,0 +1,64 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-contact-location-section-on-the-homepage-home-tsx-to-display-the-correct-business-address-pillikothi-in-front-of-roadways-bus-stand-near-froth-n-fables-replace-any-placeholder-address-with-this-value",
+      "featureTitle": "Update the contact/location section on the homepage (Home.tsx) to display the correct business address: 'Pillikothi, In Front of Roadways Bus Stand, Near Froth N Fables'. Replace any placeholder address with this value.",
+      "files": [
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-all-phone-number-references-across-the-site-homepage-contact-section-footer-in-layout-tsx-to-display-both-numbers-7233818191-and-9044430809",
+      "featureTitle": "Update all phone number references across the site (homepage contact section, footer in Layout.tsx) to display both numbers: 7233818191 and 9044430809.",
+      "files": [
+        "frontend/src/components/Layout.tsx",
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-update-all-email-references-across-the-site-homepage-contact-section-footer-in-layout-tsx-to-display-the-correct-email-greenpitchturf-gmail-com",
+      "featureTitle": "Update all email references across the site (homepage contact section, footer in Layout.tsx) to display the correct email: greenpitchturf@gmail.com.",
+      "files": [
+        "frontend/src/components/Layout.tsx",
+        "frontend/src/pages/Home.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

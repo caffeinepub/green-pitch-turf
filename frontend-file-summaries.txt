@@ -1,0 +1,14 @@
+{
+  "frontend/src/index.css": "Global styles with Green Pitch Turf brand design system — deep green OKLCH color tokens, gold accent, Oswald/Inter font imports, hero gradient, and utility classes for turf-themed colors.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with Oswald/Inter font families, brand color tokens (turf-dark/mid/light, gold, success), custom box shadows (turf, gold), and fade-in/slide-in animations.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for all backend operations — getAllSlots, getAvailableSlots, addSlot, bookSlot, cancelBooking, deleteSlot — with proper cache invalidation.",
+  "frontend/src/lib/timeUtils.ts": "Utility functions for converting between JavaScript Dates and backend nanosecond timestamps, plus formatting helpers for dates and times.",
+  "frontend/src/components/Layout.tsx": "Full-page layout wrapper with sticky dark-green header and footer — footer contact section updated to show the correct address, both phone numbers as clickable tel: links, and the email greenpitchturf@gmail.com as a clickable mailto: link.",
+  "frontend/src/components/BookingModal.tsx": "Dialog modal for booking a slot — shows slot details, collects name/phone with validation, calls onBook callback with loading state.",
+  "frontend/src/components/SlotCard.tsx": "Reusable card displaying a single booking slot's time, status badge, booker details, and Book Now / Cancel Booking action button.",
+  "frontend/src/components/AdminSlotTable.tsx": "Responsive table component for the admin panel showing all slots with date, times, status, booker info, and cancel/delete action buttons.",
+  "frontend/src/pages/Home.tsx": "Homepage with hero banner, stats bar, features grid, about section, CTA banner, and contact cards — now showing the correct address (Pillikothi, In Front of Roadways Bus Stand, Near Froth N Fables), both phone numbers (7233818191 and 9044430809) as clickable tel: links, and email (greenpitchturf@gmail.com) as a clickable mailto: link.",
+  "frontend/src/pages/Booking.tsx": "Booking page that fetches all slots, groups them by date, renders SlotCard grids, handles booking via modal, and cancellation with toast feedback.",
+  "frontend/src/pages/Admin.tsx": "Admin panel with an add-slot form (date/start/end time inputs) and a full slot management table with delete and cancel-booking actions.",
+  "frontend/src/App.tsx": "Root app with TanStack Router setup — rootRoute wraps Layout+Outlet, with child routes for Home (/), Booking (/booking), and Admin (/admin), plus Sonner Toaster."
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "build_request",
+  "title": "Update contact details across all pages",
+  "projectName": "Green Pitch Turf",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-5",
+      "text": "Update the contact/location section on the homepage (Home.tsx) to display the correct business address: 'Pillikothi, In Front of Roadways Bus Stand, Near Froth N Fables'. Replace any placeholder address with this value.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Add the address pillikothi in front off road ways bus stand near froth n fables"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The homepage contact section displays the address: Pillikothi, In Front of Roadways Bus Stand, Near Froth N Fables",
+        "No placeholder or incorrect address is shown anywhere on the page"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Update all phone number references across the site (homepage contact section, footer in Layout.tsx) to display both numbers: 7233818191 and 9044430809.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Add the phone number 7233818191, 9044430809"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Both phone numbers 7233818191 and 9044430809 are displayed in the contact section on the homepage",
+        "Both phone numbers appear in the site footer",
+        "Phone numbers are formatted as clickable tel: links"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Update all email references across the site (homepage contact section, footer in Layout.tsx) to display the correct email: greenpitchturf@gmail.com.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ],
+        "quotes": [
+          "Add gmail greenpitchturf@gmail.com"
+        ]
+      },
+      "acceptanceCriteria": [
+        "The email greenpitchturf@gmail.com is displayed in the contact section on the homepage",
+        "The email appears in the site footer",
+        "The email is formatted as a clickable mailto: link"
+      ]
+    }
+  ],
+  "constraints": [
+    "Do not change the backend schema or any Motoko code",
+    "Do not modify files listed in frontend.immutablePaths",
+    "Preserve the existing sports-themed deep-green and gold visual identity"
+  ],
+  "nonGoals": [
+    "Adding new pages or sections not already present",
+    "Changing the booking system logic",
+    "Adding authentication or admin access controls"
+  ],
+  "imageRequirements": {
+    "required": [],
+    "edits": []
+  }
+}

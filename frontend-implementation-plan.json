@@ -1,0 +1,64 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Update contact details across all pages",
+  "requirements": [
+    {
+      "id": "REQ-5",
+      "summary": "Update homepage contact section to display correct business address",
+      "acceptanceCriteria": [
+        "The homepage contact section displays the address: Pillikothi, In Front of Roadways Bus Stand, Near Froth N Fables",
+        "No placeholder or incorrect address is shown anywhere on the page"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Locate the contact/location section and update the address text to 'Pillikothi, In Front of Roadways Bus Stand, Near Froth N Fables', replacing any existing placeholder or incorrect address value."
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Update all phone number references to display both contact numbers",
+      "acceptanceCriteria": [
+        "Both phone numbers 7233818191 and 9044430809 are displayed in the contact section on the homepage",
+        "Both phone numbers appear in the site footer",
+        "Phone numbers are formatted as clickable tel: links"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Update the contact section to display both phone numbers (7233818191 and 9044430809) as clickable tel: links, replacing any existing phone number references."
+        },
+        {
+          "path": "frontend/src/components/Layout.tsx",
+          "operation": "modify",
+          "description": "Update the footer section to display both phone numbers (7233818191 and 9044430809) as clickable tel: links, ensuring both numbers are visible and properly formatted."
+        }
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "summary": "Update all email references to display correct business email",
+      "acceptanceCriteria": [
+        "The email greenpitchturf@gmail.com is displayed in the contact section on the homepage",
+        "The email appears in the site footer",
+        "The email is formatted as a clickable mailto: link"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/pages/Home.tsx",
+          "operation": "modify",
+          "description": "Update the contact section to display the email greenpitchturf@gmail.com as a clickable mailto: link, replacing any existing email reference."
+        },
+        {
+          "path": "frontend/src/components/Layout.tsx",
+          "operation": "modify",
+          "description": "Update the footer section to display the email greenpitchturf@gmail.com as a clickable mailto: link, ensuring it is visible and properly formatted."
+        }
+      ]
+    }
+  ]
+}

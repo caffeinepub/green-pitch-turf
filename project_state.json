@@ -1,0 +1,89 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 5,
+  "summary": "A website for a cricket turf business called 'Green Pitch Turf' with a booking slots system. Business details: address at Pillikothi, in front of Roadways Bus Stand, near Froth N Fables; phone numbers 7233818191 and 9044430809; email greenpitchturf@gmail.com.",
+  "architectural_notes": [
+    "Project is a website for a cricket turf business named 'Green Pitch Turf'",
+    "Core feature: booking/slot reservation system for turf scheduling",
+    "Business address: Pillikothi, in front of Roadways Bus Stand, near Froth N Fables",
+    "Business contact: phones 7233818191 & 9044430809, email greenpitchturf@gmail.com"
+  ],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-visually-striking-homepage-for-green-pitch-turf-that-includes-a-hero-banner-with-the-business-name-and-tagline-a-features-highlights-section-e-g-pitch-quality-facilities-pricing-an-about-section-and-a-contact-location-section-apply-a-bold-sports-themed-visual-identity-using-deep-greens-white-and-gold-accents-with-strong-typography-and-a-clean-energetic-layout-consistent-across-all-pages",
+      "title": "Create a visually striking homepage for 'Green Pitch Turf' that includes a hero banner with the business name and tagline, a features/highlights section (e.g., pitch quality, facilities, pricing), an about section, and a contact/location section. Apply a bold sports-themed visual identity using deep greens, white, and gold accents, with strong typography and a clean, energetic layout consistent across all pages.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-booking-page-in-the-frontend-that-displays-all-available-and-booked-time-slots-in-a-calendar-or-grid-view-users-can-select-an-available-slot-fill-in-their-name-and-phone-number-and-confirm-the-booking-booked-slots-should-be-visually-distinguished-greyed-out-or-marked-users-should-also-be-able-to-cancel-their-own-booking",
+      "title": "Build a Booking page in the frontend that displays all available and booked time slots in a calendar or grid view. Users can select an available slot, fill in their name and phone number, and confirm the booking. Booked slots should be visually distinguished (greyed out or marked). Users should also be able to cancel their own booking.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-simple-admin-panel-page-no-authentication-required-that-allows-an-admin-to-add-new-booking-slots-by-specifying-a-date-start-time-and-end-time-the-panel-should-also-list-all-existing-slots-with-their-current-status-and-allow-deleting-cancelling-any-slot",
+      "title": "Build a simple Admin panel page (no authentication required) that allows an admin to add new booking slots by specifying a date, start time, and end time. The panel should also list all existing slots with their current status and allow deleting/cancelling any slot.",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-contact-location-section-on-the-homepage-home-tsx-to-display-the-correct-business-address-pillikothi-in-front-of-roadways-bus-stand-near-froth-n-fables-replace-any-placeholder-address-with-this-value",
+      "title": "Update the contact/location section on the homepage (Home.tsx) to display the correct business address: 'Pillikothi, In Front of Roadways Bus Stand, Near Froth N Fables'. Replace any placeholder address with this value.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-phone-number-references-across-the-site-homepage-contact-section-footer-in-layout-tsx-to-display-both-numbers-7233818191-and-9044430809",
+      "title": "Update all phone number references across the site (homepage contact section, footer in Layout.tsx) to display both numbers: 7233818191 and 9044430809.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-all-email-references-across-the-site-homepage-contact-section-footer-in-layout-tsx-to-display-the-correct-email-greenpitchturf-gmail-com",
+      "title": "Update all email references across the site (homepage contact section, footer in Layout.tsx) to display the correct email: greenpitchturf@gmail.com.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Cricket turf website homepage for Green Pitch Turf",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Booking slots system for turf reservations",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-4",
+      "summary": "Implement a backend data model for booking slots. Each slot must store: slot ID, date, start time, end time, status (available/booked), and booker details (name, phone number). Provide actor functions to: list all slots, add new slots (admin), book a slot (user), and cancel a booking.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Green Pitch Turf",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
